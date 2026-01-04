@@ -11,6 +11,8 @@ export default defineConfig({
     vue(),
     vueJsx(),
     vueDevTools(),
+    Components({dts: true, // This generates the components.d.ts file)
+    })
   ],
   resolve: {
     alias: {

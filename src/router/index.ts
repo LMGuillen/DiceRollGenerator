@@ -4,7 +4,7 @@ import DiceGenerator from '../components/DiceGenerator.vue'
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
-    {path: '/DiceGenerator', component: DiceGenerator},
+    { path: '/', component: DiceGenerator },
   ],
 })
 
